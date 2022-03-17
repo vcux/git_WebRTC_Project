@@ -1,0 +1,85 @@
+.fixed{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.videoContainer{
+    position: relative;
+}
+.kickp{position: relative}
+.kick{
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff; /* Green */
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.kick:hover{
+    background-color: #000000; /* Green */
+    color: white;
+}
+    
+.containers {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: repeat(auto-fit, 300px);
+}
+
+.container {
+    display: flex;
+}
+
+.vid {
+    position: relative;
+    flex: 0 1 auto;
+    overflow: auto;
+    height: 500px;
+}
+
+.settings {
+    background-color: #ffffff; /* Green */
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.settings:hover{
+    background-color: #000000; /* Green */
+    color: white;
+}
+.settings:disabled,
+.settings[disabled]{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.inputBox{
+    width: 300px;
+    height: 30px;
+}
+.text{
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+}
+.chatWindow{
+    border:1px solid black;
+    height: 200px;
+}
