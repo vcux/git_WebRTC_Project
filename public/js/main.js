@@ -146,7 +146,9 @@ function init() {
 
 
     //is called when the host kicks the client
-    socket.on('kicked', () => {roomDisconnect()
+    socket.on('kicked', () => {
+        alert('you were kicked')
+        roomDisconnect()
     });
 
 }
