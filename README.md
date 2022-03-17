@@ -2,7 +2,7 @@
  a WebRTC project
  to start this project you need to:
  1.have node.js installed
- 2.have npm.js installed
+ 2.have npm.js installed(npm install)
  3.open the terminal and write 'npm start'
  4.open localhost:8080 in your browser
  5.open multipule tabs and enter any room id
